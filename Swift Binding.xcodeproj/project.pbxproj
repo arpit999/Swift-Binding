@@ -11,6 +11,7 @@
 		2B1331612BFC2BF4003AF8B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1331602BFC2BF4003AF8B4 /* ContentView.swift */; };
 		2B1331632BFC2BF5003AF8B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1331622BFC2BF5003AF8B4 /* Assets.xcassets */; };
 		2B1331662BFC2BF5003AF8B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B1331652BFC2BF5003AF8B4 /* Preview Assets.xcassets */; };
+		2B13316D2BFC35F8003AF8B4 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B13316C2BFC35F8003AF8B4 /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		2B1331602BFC2BF4003AF8B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2B1331622BFC2BF5003AF8B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B1331652BFC2BF5003AF8B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B13316C2BFC35F8003AF8B4 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				2B13315E2BFC2BF4003AF8B4 /* Swift_BindingApp.swift */,
 				2B1331602BFC2BF4003AF8B4 /* ContentView.swift */,
+				2B13316C2BFC35F8003AF8B4 /* SliderView.swift */,
 				2B1331622BFC2BF5003AF8B4 /* Assets.xcassets */,
 				2B1331642BFC2BF5003AF8B4 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B13316D2BFC35F8003AF8B4 /* SliderView.swift in Sources */,
 				2B1331612BFC2BF4003AF8B4 /* ContentView.swift in Sources */,
 				2B13315F2BFC2BF4003AF8B4 /* Swift_BindingApp.swift in Sources */,
 			);

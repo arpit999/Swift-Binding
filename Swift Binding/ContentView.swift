@@ -21,9 +21,9 @@ struct ContentView: View {
                 .frame(width:150,height:150)
                 .foregroundStyle(Color(red: red, green: green, blue: blue))
             
-            Slider(value: $red)
-            Slider(value: $green)
-            Slider(value: $blue)
+            SliderView(colorValue: $red,color: .red)
+            SliderView(colorValue: $green,color: .green)
+            SliderView(colorValue: $blue,color: .blue)
         }
         .padding()
     }
