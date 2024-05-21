@@ -9,12 +9,21 @@ import SwiftUI
 
 struct ContentView: View {
     // Bind runtime change
-    @State var hello = "Hello World"
+    @State var red = 0.0
+    @State var green = 0.0
+    @State var blue = 0.0
     
     var body: some View {
         VStack {
-            TextField("Type your name", text: $hello)
-            Text(hello).font(.title)
+            Text("Color Picker").font(.title)
+            Image(systemName: "dog.circle.fill")
+                .resizable()
+                .frame(width:150,height:150)
+                .foregroundStyle(Color(red: red, green: green, blue: blue))
+            
+            Slider(value: $red)
+            Slider(value: $green)
+            Slider(value: $blue)
         }
         .padding()
     }
